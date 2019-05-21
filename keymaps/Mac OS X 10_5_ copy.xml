@@ -2,8 +2,12 @@
   <action id="ActivateProjectToolWindow" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="FileChooser.GotoHome" />
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="meta 1" />
   </action>
+  <action id="Vcs.UpdateProject" />
 </keymap>
