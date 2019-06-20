@@ -54,7 +54,7 @@
           <IdeaActionID>$Delete</IdeaActionID>
           <ShortCut>'⌦' or '⌫' or '⌘⌫'</ShortCut>
           <Description>Delete...</Description>
-          <Count>14</Count>
+          <Count>15</Count>
         </Item>
       </Statistic>
       <Statistic Action="Disconnect">
@@ -86,7 +86,7 @@
           <IdeaActionID>FindBugs.PreviewSelectBugInstance</IdeaActionID>
           <ShortCut>'⌥Q'</ShortCut>
           <Description>Preview the current selected bug.</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Project">
@@ -150,6 +150,14 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'OrderConsumerApplication'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'SsmApplication'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'SsmApplication'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -217,6 +225,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'SsmApplication'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'⌃⇧R'</ShortCut>
+          <Description>Run 'SsmApplication'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'bloomFilterTest()'">
         <Item>
           <IdeaActionID>RunClass</IdeaActionID>
@@ -233,12 +249,44 @@
           <Count>4</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'test()'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'⌃⇧R'</ShortCut>
+          <Description>Run 'test()'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'test1()'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'⌃⇧R'</ShortCut>
+          <Description>Run 'test1()'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'test2()'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'⌃⇧R'</ShortCut>
+          <Description>Run 'test2()'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'test3()'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'⌃⇧R'</ShortCut>
+          <Description>Run 'test3()'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Scratch File">
         <Item>
           <IdeaActionID>NewScratchFile</IdeaActionID>
           <ShortCut>'⇧⌘N'</ShortCut>
           <Description>Scratch File</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show Dependencies...">
@@ -270,7 +318,7 @@
           <IdeaActionID>ActivateStructureToolWindow</IdeaActionID>
           <ShortCut>'⌘7'</ShortCut>
           <Description>Structure</Description>
-          <Count>3</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Synchronize">
@@ -279,6 +327,14 @@
           <ShortCut>'⌥⌘Y'</ShortCut>
           <Description>Synchronize</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="go to definition">
+        <Item>
+          <IdeaActionID>GotoDeclaration</IdeaActionID>
+          <ShortCut>'⌘B'</ShortCut>
+          <Description>go to definition</Description>
+          <Count>3</Count>
         </Item>
       </Statistic>
     </option>
